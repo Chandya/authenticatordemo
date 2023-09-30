@@ -1,0 +1,43 @@
+package com.authenticatordemo.authenticatordemo.models.rest;
+
+public class Request {
+    private String name;
+    private String username;
+    private String password;
+
+    public Request(){
+        super();
+    }
+
+    public Request(String name, String username, String password){
+        super();
+        this.name = name;
+        this.username = username;
+        this.password = password;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getUsername(){
+        return this.username;
+    }
+
+    public void setUsername(String username){
+        this.username = username;
+    }
+
+    public String getPassword(){
+        return this.password;
+    }
+
+    public void setPassword(String password){
+        this.password = password;
+    }
+
+}
