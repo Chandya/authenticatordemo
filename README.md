@@ -16,5 +16,6 @@ according to user's role.
 1. Change username and password to that of your MySQL database in `applications.properties`
 2. Change port number to that of your MySQL database in `applications.properties`
 3. Create a schema in your local MySQL of the name `demo`
+4. Replace the URL in WebConfig.java file to the Port number your frontend is running on.
 
 You are now ready to run the SpringBoot application!
