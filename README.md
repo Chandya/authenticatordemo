@@ -19,3 +19,16 @@ according to user's role.
 4. Replace the URL in WebConfig.java file to the Port number your frontend is running on.
 
 You are now ready to run the SpringBoot application!
+
+# Login Details:
+
+- Manager Role:
+  - username: manager
+  - password: password123
+- User role:
+  - username: adam
+  - password: password123
+ 
+### To create new users:
+1. Run http://localhost:8080/auth/register in Postman or any API platform with the body:
+ -  Body: Name, Username, Password
